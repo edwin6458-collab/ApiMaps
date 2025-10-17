@@ -10,10 +10,10 @@
 
 // 1. CONFIGURACIÓN DE CONEXIÓN A SQL SERVER
 // Ajusta estos valores a tu entorno de SQL Server
-$serverName = "IT-SRV-DB1\SQLINFASA"; // Ej. "localhost\SQLEXPRESS" o la IP
-$databaseName = "CONSIS";
-$uid = "db.user";
-$pwd = "db.user@inFasa90";
+$serverName = ""; // Ej. "localhost\SQLEXPRESS" o la IP
+$databaseName = "";
+$uid = "";
+$pwd = "";
 
 // Array de opciones de conexión
 $connectionOptions = array(
