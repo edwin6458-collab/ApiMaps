@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapa con SQL Server y PHP</title>
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Haz clic en el mapa para guardar una coordenada en SQL Server</h1>
+    <div id="map"></div>
+    <div id="coordenadasGuardadas">
+        <h2>Coordenadas Cargadas</h2>
+        </div>
+
+    <script src="mapa.js"></script> 
+
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=TU-API-KEY&callback=initMap">
+    </script>
+</body>
+</html>
